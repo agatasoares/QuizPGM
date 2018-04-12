@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(categoriapa));
             this.pergunta_1 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.alternativa_1 = new System.Windows.Forms.RadioButton();
@@ -107,6 +108,7 @@
             this.Controls.Add(this.alternativa_1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pergunta_1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximumSize = new System.Drawing.Size(800, 500);
             this.Name = "categoriapa";
             this.Text = "Política de Alianças 1/2";
