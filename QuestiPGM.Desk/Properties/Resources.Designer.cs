@@ -63,15 +63,9 @@ namespace QuestiPGM.Desk.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-<<<<<<< HEAD
         internal static System.Drawing.Bitmap _25 {
             get {
                 object obj = ResourceManager.GetObject("25", resourceCulture);
-=======
-        internal static System.Drawing.Bitmap correto {
-            get {
-                object obj = ResourceManager.GetObject("correto", resourceCulture);
->>>>>>> 301fd71b36383b726b2dee8b3c1415c2470e5b24
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -79,15 +73,9 @@ namespace QuestiPGM.Desk.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-<<<<<<< HEAD
         internal static System.Drawing.Bitmap _5hekHgq_e1473809232315 {
             get {
                 object obj = ResourceManager.GetObject("5hekHgq-e1473809232315", resourceCulture);
-=======
-        internal static System.Drawing.Bitmap correto1 {
-            get {
-                object obj = ResourceManager.GetObject("correto1", resourceCulture);
->>>>>>> 301fd71b36383b726b2dee8b3c1415c2470e5b24
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -95,25 +83,9 @@ namespace QuestiPGM.Desk.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-<<<<<<< HEAD
         internal static System.Drawing.Bitmap play_reverse {
             get {
                 object obj = ResourceManager.GetObject("play_reverse", resourceCulture);
-=======
-        internal static System.Drawing.Bitmap correto2 {
-            get {
-                object obj = ResourceManager.GetObject("correto2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap depositphotos_69999365_stock_illustration_next_button_icon {
-            get {
-                object obj = ResourceManager.GetObject("depositphotos_69999365-stock-illustration-next-button-icon", resourceCulture);
->>>>>>> 301fd71b36383b726b2dee8b3c1415c2470e5b24
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
