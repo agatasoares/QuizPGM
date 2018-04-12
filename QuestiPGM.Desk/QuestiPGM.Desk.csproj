@@ -112,5 +112,14 @@
   <ItemGroup>
     <None Include="Resources\play_reverse.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LJ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c431edb057e31d1981ad9ebc9a2c800d.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
