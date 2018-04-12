@@ -45,6 +45,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Armamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Armamento.Designer.cs">
+      <DependentUpon>Armamento.cs</DependentUpon>
+    </Compile>
     <Compile Include="categoriapa.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -59,6 +65,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Armamento.resx">
+      <DependentUpon>Armamento.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="categoriapa.resx">
       <DependentUpon>categoriapa.cs</DependentUpon>
     </EmbeddedResource>
@@ -90,6 +99,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\vrldskarta_affisch_vintage-41791358-39920686-org.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\war.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed_7_-6.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

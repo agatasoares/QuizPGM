@@ -10,31 +10,25 @@ using System.Windows.Forms;
 
 namespace QuestiPGM.Desk
 {
-    public partial class Principal : Form
+    public partial class Armamento : Form
     {
-        public Principal()
+        public Armamento()
         {
             InitializeComponent();
         }
 
-        private void label2_Click(object sender, EventArgs e)
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
 
-        }
-
-        private void Principal_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Application.Exit(); // encerrar
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            if (p01op01)
+            {
+                p01op01.ForeColor = Color.Red;
 
+            }
         }
     }
 }

@@ -63,9 +63,29 @@ namespace QuestiPGM.Desk.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap unnamed_7__6 {
+            get {
+                object obj = ResourceManager.GetObject("unnamed_7_-6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap vrldskarta_affisch_vintage_41791358_39920686_org {
             get {
                 object obj = ResourceManager.GetObject("vrldskarta_affisch_vintage-41791358-39920686-org", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap war {
+            get {
+                object obj = ResourceManager.GetObject("war", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
