@@ -63,6 +63,46 @@ namespace QuestiPGM.Desk.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap correto {
+            get {
+                object obj = ResourceManager.GetObject("correto", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap correto1 {
+            get {
+                object obj = ResourceManager.GetObject("correto1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap correto2 {
+            get {
+                object obj = ResourceManager.GetObject("correto2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap depositphotos_69999365_stock_illustration_next_button_icon {
+            get {
+                object obj = ResourceManager.GetObject("depositphotos_69999365-stock-illustration-next-button-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap vrldskarta_affisch_vintage_41791358_39920686_org {
             get {
                 object obj = ResourceManager.GetObject("vrldskarta_affisch_vintage-41791358-39920686-org", resourceCulture);

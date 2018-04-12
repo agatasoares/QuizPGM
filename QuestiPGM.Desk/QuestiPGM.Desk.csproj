@@ -45,11 +45,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="categoriapa.cs">
+    <Compile Include="..\..\..\..\source\repos\categoriapa.cs">
+      <SubType>Form</SubType>
+      <Link>categoriapa.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\..\source\repos\categoriapa.Designer.cs">
+      <DependentUpon>categoriapa.cs</DependentUpon>
+      <Link>categoriapa.Designer.cs</Link>
+    </Compile>
+    <Compile Include="categoriapa_2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="categoriapa.Designer.cs">
-      <DependentUpon>categoriapa.cs</DependentUpon>
+    <Compile Include=".Designer.cs">
+      <DependentUpon>categoriapa_2.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Principal.cs">
       <SubType>Form</SubType>
@@ -59,8 +74,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="categoriapa.resx">
+    <EmbeddedResource Include="..\..\..\..\source\repos\categoriapa.resx">
       <DependentUpon>categoriapa.cs</DependentUpon>
+      <Link>categoriapa.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="categoriapa_2.resx">
+      <DependentUpon>categoriapa_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Principal.resx">
       <DependentUpon>Principal.cs</DependentUpon>
@@ -90,6 +112,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\vrldskarta_affisch_vintage-41791358-39920686-org.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\correto.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\correto1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\correto2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_69999365-stock-illustration-next-button-icon.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
