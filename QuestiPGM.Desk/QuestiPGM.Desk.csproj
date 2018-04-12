@@ -65,9 +65,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
     <EmbeddedResource Include="Armamento.resx">
       <DependentUpon>Armamento.cs</DependentUpon>
     </EmbeddedResource>
+=======
+    <Compile Include="transpote.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="transpote.Designer.cs">
+      <DependentUpon>transpote.cs</DependentUpon>
+    </Compile>
+>>>>>>> 5e716dbb4cc921cafd625fa0fb2775f1dd05e5ee
     <EmbeddedResource Include="categoriapa.resx">
       <DependentUpon>categoriapa.cs</DependentUpon>
     </EmbeddedResource>
@@ -84,6 +93,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="transpote.resx">
+      <DependentUpon>transpote.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

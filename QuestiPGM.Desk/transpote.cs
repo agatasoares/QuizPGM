@@ -10,24 +10,31 @@ using System.Windows.Forms;
 
 namespace QuestiPGM.Desk
 {
-    public partial class Armamento : Form
+    public partial class transpote : Form
     {
-        public Armamento()
+        public transpote()
         {
             InitializeComponent();
         }
 
-        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (p01op01.Checked)
+            if(B1.Checked)
             {
-                p01op01.ForeColor = Color.Red;
-
+                B1.ForeColor = Color.Red;
+            }
+            else if (B2.Checked)
+            {
+                B2.ForeColor = Color.Red;
+            }
+            else if (B3.Checked)
+            {
+                B3.ForeColor = Color.Green;
             }
         }
     }
