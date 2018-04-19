@@ -60,6 +60,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="categoriapa_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="categoriapa_2.Designer.cs">
+      <DependentUpon>categoriapa_2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Principal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +89,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="categoriapa_2.resx">
+      <DependentUpon>categoriapa_2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Principal.resx">
       <DependentUpon>Principal.cs</DependentUpon>
@@ -127,6 +136,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\depositphotos_69999365-stock-illustration-next-button-icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LJ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c431edb057e31d1981ad9ebc9a2c800d.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
