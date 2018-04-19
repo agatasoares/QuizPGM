@@ -29,11 +29,10 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Principal));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.button2 = new System.Windows.Forms.Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -53,14 +52,10 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(123, 168);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(572, 55);
+            this.label2.Size = new System.Drawing.Size(546, 55);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Primeira Guerra Mundia l ";
+            this.label2.Text = "Primeira Guerra Mundial";
             this.label2.Click += new System.EventHandler(this.label2_Click);
-            // 
-            // timer1
-            // 
-            this.timer1.Interval = 1000;
             // 
             // button2
             // 
@@ -72,6 +67,10 @@
             this.button2.Text = "FINALIZAR";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // timer1
+            // 
+            this.timer1.Interval = 1000;
             // 
             // button1
             // 
@@ -95,12 +94,10 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximumSize = new System.Drawing.Size(800, 500);
             this.MinimumSize = new System.Drawing.Size(800, 500);
             this.Name = "Principal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Quiz";
             this.Load += new System.EventHandler(this.Principal_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

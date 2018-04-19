@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(categoriapa));
             this.pergunta_1 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.alternativa_1 = new System.Windows.Forms.RadioButton();
@@ -47,7 +46,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.BackColor = System.Drawing.Color.SandyBrown;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(12, 120);
             this.label1.Name = "label1";
@@ -60,7 +59,7 @@
             // alternativa_1
             // 
             this.alternativa_1.AutoSize = true;
-            this.alternativa_1.BackColor = System.Drawing.Color.Transparent;
+            this.alternativa_1.BackColor = System.Drawing.Color.SandyBrown;
             this.alternativa_1.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.alternativa_1.Location = new System.Drawing.Point(52, 190);
             this.alternativa_1.Name = "alternativa_1";
@@ -74,7 +73,7 @@
             // alternativa_2
             // 
             this.alternativa_2.AutoSize = true;
-            this.alternativa_2.BackColor = System.Drawing.Color.Transparent;
+            this.alternativa_2.BackColor = System.Drawing.Color.SandyBrown;
             this.alternativa_2.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.alternativa_2.Location = new System.Drawing.Point(52, 241);
             this.alternativa_2.Name = "alternativa_2";
@@ -87,7 +86,7 @@
             // alternativa_3
             // 
             this.alternativa_3.AutoSize = true;
-            this.alternativa_3.BackColor = System.Drawing.Color.Transparent;
+            this.alternativa_3.BackColor = System.Drawing.Color.SandyBrown;
             this.alternativa_3.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.alternativa_3.Location = new System.Drawing.Point(52, 298);
             this.alternativa_3.Name = "alternativa_3";
@@ -102,13 +101,13 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.BackgroundImage = global::QuestiPGM.Desk.Properties.Resources.vrldskarta_affisch_vintage_41791358_39920686_org;
             this.ClientSize = new System.Drawing.Size(784, 462);
             this.Controls.Add(this.alternativa_3);
             this.Controls.Add(this.alternativa_2);
             this.Controls.Add(this.alternativa_1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pergunta_1);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximumSize = new System.Drawing.Size(800, 500);
             this.Name = "categoriapa";
             this.Text = "Política de Alianças 1/2";
