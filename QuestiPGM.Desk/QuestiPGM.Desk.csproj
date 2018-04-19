@@ -46,23 +46,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="..\..\..\..\source\repos\categoriapa.cs">
-      <SubType>Form</SubType>
       <Link>categoriapa.cs</Link>
     </Compile>
     <Compile Include="..\..\..\..\source\repos\categoriapa.Designer.cs">
       <DependentUpon>categoriapa.cs</DependentUpon>
       <Link>categoriapa.Designer.cs</Link>
     </Compile>
-    <Compile Include="categoriapa_2.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="categoriapa_2.cs" />
     <Compile Include=".Designer.cs">
       <DependentUpon>categoriapa_2.cs</DependentUpon>
-      <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="Form1.cs" />
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>

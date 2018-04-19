@@ -63,9 +63,9 @@ namespace QuestiPGM.Desk.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap correto {
+        internal static System.Drawing.Bitmap _25 {
             get {
-                object obj = ResourceManager.GetObject("correto", resourceCulture);
+                object obj = ResourceManager.GetObject("25", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace QuestiPGM.Desk.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap correto1 {
+        internal static System.Drawing.Bitmap _5hekHgq_e1473809232315 {
             get {
-                object obj = ResourceManager.GetObject("correto1", resourceCulture);
+                object obj = ResourceManager.GetObject("5hekHgq-e1473809232315", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,19 +83,9 @@ namespace QuestiPGM.Desk.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap correto2 {
+        internal static System.Drawing.Bitmap play_reverse {
             get {
-                object obj = ResourceManager.GetObject("correto2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap depositphotos_69999365_stock_illustration_next_button_icon {
-            get {
-                object obj = ResourceManager.GetObject("depositphotos_69999365-stock-illustration-next-button-icon", resourceCulture);
+                object obj = ResourceManager.GetObject("play_reverse", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -106,6 +96,16 @@ namespace QuestiPGM.Desk.Properties {
         internal static System.Drawing.Bitmap vrldskarta_affisch_vintage_41791358_39920686_org {
             get {
                 object obj = ResourceManager.GetObject("vrldskarta_affisch_vintage-41791358-39920686-org", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap worldwar1somme_tl {
+            get {
+                object obj = ResourceManager.GetObject("worldwar1somme-tl", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
