@@ -163,6 +163,16 @@ namespace QuestiPGM.Desk.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap War {
+            get {
+                object obj = ResourceManager.GetObject("War", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap worldwar1somme_tl {
             get {
                 object obj = ResourceManager.GetObject("worldwar1somme-tl", resourceCulture);

@@ -124,8 +124,8 @@
   <data name="worldwar1somme-tl" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\worldwar1somme-tl.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="mapinha_1-750x500" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mapinha_1-750x500.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="giphy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\giphy.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="25" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\25.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -133,22 +133,25 @@
   <data name="LJ" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LJ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="c431edb057e31d1981ad9ebc9a2c800d" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\c431edb057e31d1981ad9ebc9a2c800d.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="mapinha_1-750x500" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mapinha_1-750x500.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="54b519f272139e17538b45b0" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\54b519f272139e17538b45b0.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="giphy" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\giphy.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="c431edb057e31d1981ad9ebc9a2c800d" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c431edb057e31d1981ad9ebc9a2c800d.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="5hekHgq-e1473809232315" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\5hekHgq-e1473809232315.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="mapinha_1-750x5001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mapinha_1-750x5001.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="play_reverse" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\play_reverse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="mapinha_1-750x5001" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mapinha_1-750x5001.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="War" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\War.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

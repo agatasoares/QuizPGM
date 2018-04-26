@@ -40,8 +40,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(266, 36);
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(282, 19);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(242, 108);
             this.label1.TabIndex = 0;
@@ -50,8 +52,10 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(123, 168);
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(136, 151);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(559, 55);
             this.label2.TabIndex = 1;
@@ -89,6 +93,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::QuestiPGM.Desk.Properties.Resources.War;
             this.ClientSize = new System.Drawing.Size(780, 458);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
