@@ -36,5 +36,10 @@ namespace QuestiPGM.Desk
                 radioButton4.ForeColor = Color.Red;
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Application.Exit(); // encerrar
+        }
     }
 }

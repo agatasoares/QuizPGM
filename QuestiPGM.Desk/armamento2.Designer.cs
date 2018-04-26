@@ -125,8 +125,9 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(79, 30);
             this.button2.TabIndex = 7;
-            this.button2.Text = "Próximo";
+            this.button2.Text = "Finalizar";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // armamento2
             // 
@@ -141,6 +142,7 @@
             this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximumSize = new System.Drawing.Size(800, 500);
             this.MinimumSize = new System.Drawing.Size(800, 500);
             this.Name = "armamento2";

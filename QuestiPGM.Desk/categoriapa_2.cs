@@ -35,7 +35,8 @@ namespace QuestiPGM.Desk
 
         private void proximo2_Click(object sender, EventArgs e)
         {
-            
+            armamento armamento = new armamento();
+            armamento.ShowDialog();
         }
     }
 }
