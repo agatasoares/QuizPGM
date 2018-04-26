@@ -33,7 +33,8 @@
             this.alternativa_1 = new System.Windows.Forms.RadioButton();
             this.alternativa_2 = new System.Windows.Forms.RadioButton();
             this.alternativa_3 = new System.Windows.Forms.RadioButton();
-            this.button1 = new System.Windows.Forms.Button();
+            this.check3 = new System.Windows.Forms.Button();
+            this.proximo3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -79,22 +80,33 @@
             this.alternativa_3.Text = "Rádio comunicador.";
             this.alternativa_3.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // check3
             // 
-            this.button1.Location = new System.Drawing.Point(665, 402);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(92, 37);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.check3.Location = new System.Drawing.Point(54, 362);
+            this.check3.Name = "check3";
+            this.check3.Size = new System.Drawing.Size(92, 32);
+            this.check3.TabIndex = 4;
+            this.check3.Text = "Verificar";
+            this.check3.UseVisualStyleBackColor = true;
+            this.check3.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // proximo3
+            // 
+            this.proximo3.Location = new System.Drawing.Point(668, 371);
+            this.proximo3.Name = "proximo3";
+            this.proximo3.Size = new System.Drawing.Size(83, 32);
+            this.proximo3.TabIndex = 5;
+            this.proximo3.Text = "button1";
+            this.proximo3.UseVisualStyleBackColor = true;
+            this.proximo3.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // ciencia_tec
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 462);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.proximo3);
+            this.Controls.Add(this.check3);
             this.Controls.Add(this.alternativa_3);
             this.Controls.Add(this.alternativa_2);
             this.Controls.Add(this.alternativa_1);
@@ -113,6 +125,7 @@
         private System.Windows.Forms.RadioButton alternativa_1;
         private System.Windows.Forms.RadioButton alternativa_2;
         private System.Windows.Forms.RadioButton alternativa_3;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button check3;
+        private System.Windows.Forms.Button proximo3;
     }
 }

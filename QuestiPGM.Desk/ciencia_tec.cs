@@ -21,8 +21,22 @@ namespace QuestiPGM.Desk
         {
             if (alternativa_1.Checked)
             {
-                MessageBox.Show("Alternativa errada!", MessageBoxButtons.OK;)
+                alternativa_1.ForeColor = Color.Red;
             }
-        }  
+            if (alternativa_2.Checked)
+            {
+                alternativa_2.ForeColor = Color.Green;
+            }
+            if (alternativa_3.Checked)
+            {
+                alternativa_3.ForeColor = Color.Red;
+            }
+            
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
