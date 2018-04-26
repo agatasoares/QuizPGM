@@ -31,5 +31,21 @@ namespace QuestiPGM.Desk
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (alternativa_1.Checked)
+            {
+                alternativa_1.ForeColor = Color.Red;
+            }
+            if (alternativa_2.Checked)
+            {
+                alternativa_2.ForeColor = Color.Red;
+            }
+            if (alternativa_3.Checked)
+            {
+                alternativa_3.ForeColor = Color.Green;
+            }
+        }
     }
 }
