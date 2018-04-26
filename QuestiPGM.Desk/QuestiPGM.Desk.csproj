@@ -139,5 +139,14 @@
   <ItemGroup>
     <None Include="Resources\c431edb057e31d1981ad9ebc9a2c800d.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\54b519f272139e17538b45b0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mapinha_1-750x500.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mapinha_1-750x5001.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -73,6 +73,16 @@ namespace QuestiPGM.Desk.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _54b519f272139e17538b45b0 {
+            get {
+                object obj = ResourceManager.GetObject("54b519f272139e17538b45b0", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _5hekHgq_e1473809232315 {
             get {
                 object obj = ResourceManager.GetObject("5hekHgq-e1473809232315", resourceCulture);
@@ -106,6 +116,26 @@ namespace QuestiPGM.Desk.Properties {
         internal static System.Drawing.Bitmap LJ {
             get {
                 object obj = ResourceManager.GetObject("LJ", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mapinha_1_750x500 {
+            get {
+                object obj = ResourceManager.GetObject("mapinha_1-750x500", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mapinha_1_750x5001 {
+            get {
+                object obj = ResourceManager.GetObject("mapinha_1-750x5001", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

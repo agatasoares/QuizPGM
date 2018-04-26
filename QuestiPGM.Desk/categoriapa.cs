@@ -47,5 +47,11 @@ namespace QuestiPGM.Desk
                 alternativa_3.ForeColor = Color.Green;
             }
         }
+
+        private void proximo1_Click(object sender, EventArgs e)
+        {
+            categoriapa_2 categoriapa_2 = new categoriapa_2();
+            categoriapa_2.ShowDialog();
+        }
     }
 }
