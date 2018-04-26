@@ -34,7 +34,6 @@
             this.alternativa_1 = new System.Windows.Forms.RadioButton();
             this.alternativa_2 = new System.Windows.Forms.RadioButton();
             this.alternativa_3 = new System.Windows.Forms.RadioButton();
-            this.proximo1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // pergunta_1
@@ -98,24 +97,12 @@
             this.alternativa_3.Text = "Alemanha, Império Austro- Húngaro e Itália.";
             this.alternativa_3.UseVisualStyleBackColor = false;
             // 
-            // proximo1
-            // 
-            this.proximo1.BackColor = System.Drawing.Color.LightGray;
-            this.proximo1.Location = new System.Drawing.Point(684, 420);
-            this.proximo1.Name = "proximo1";
-            this.proximo1.Size = new System.Drawing.Size(79, 30);
-            this.proximo1.TabIndex = 5;
-            this.proximo1.Text = "Próxima";
-            this.proximo1.UseVisualStyleBackColor = false;
-            this.proximo1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // categoriapa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ClientSize = new System.Drawing.Size(784, 462);
-            this.Controls.Add(this.proximo1);
             this.Controls.Add(this.alternativa_3);
             this.Controls.Add(this.alternativa_2);
             this.Controls.Add(this.alternativa_1);
@@ -138,6 +125,5 @@
         private System.Windows.Forms.RadioButton alternativa_1;
         private System.Windows.Forms.RadioButton alternativa_2;
         private System.Windows.Forms.RadioButton alternativa_3;
-        private System.Windows.Forms.Button proximo1;
     }
 }
