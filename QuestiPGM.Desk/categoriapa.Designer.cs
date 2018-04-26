@@ -34,8 +34,10 @@
             this.alternativa_1 = new System.Windows.Forms.RadioButton();
             this.alternativa_2 = new System.Windows.Forms.RadioButton();
             this.alternativa_3 = new System.Windows.Forms.RadioButton();
+
             this.check1 = new System.Windows.Forms.Button();
             this.proximo1 = new System.Windows.Forms.Button();
+
             this.SuspendLayout();
             // 
             // pergunta_1
@@ -121,6 +123,7 @@
             this.proximo1.UseVisualStyleBackColor = false;
             this.proximo1.Click += new System.EventHandler(this.proximo1_Click);
             // 
+
             // categoriapa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -128,8 +131,10 @@
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.BackgroundImage = global::QuestiPGM.Desk.Properties.Resources.mapinha_1_750x500;
             this.ClientSize = new System.Drawing.Size(784, 462);
+
             this.Controls.Add(this.proximo1);
             this.Controls.Add(this.check1);
+
             this.Controls.Add(this.alternativa_3);
             this.Controls.Add(this.alternativa_2);
             this.Controls.Add(this.alternativa_1);
@@ -152,7 +157,9 @@
         private System.Windows.Forms.RadioButton alternativa_1;
         private System.Windows.Forms.RadioButton alternativa_2;
         private System.Windows.Forms.RadioButton alternativa_3;
+
         private System.Windows.Forms.Button check1;
         private System.Windows.Forms.Button proximo1;
+
     }
 }

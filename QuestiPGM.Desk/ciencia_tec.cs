@@ -10,26 +10,11 @@ using System.Windows.Forms;
 
 namespace QuestiPGM.Desk
 {
-    public partial class categoriapa : Form
+    public partial class ciencia_tec : Form
     {
-        public categoriapa()
+        public ciencia_tec()
         {
             InitializeComponent();
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void alternativa_1_CheckedChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -40,19 +25,18 @@ namespace QuestiPGM.Desk
             }
             if (alternativa_2.Checked)
             {
-                alternativa_2.ForeColor = Color.Red;
+                alternativa_2.ForeColor = Color.Green;
             }
             if (alternativa_3.Checked)
             {
-                alternativa_3.ForeColor = Color.Green;
+                alternativa_3.ForeColor = Color.Red;
             }
+            
         }
 
-        private void proximo1_Click(object sender, EventArgs e)
+        private void button1_Click_1(object sender, EventArgs e)
         {
-            categoriapa_2 categoriapa_2 = new categoriapa_2();
-            categoriapa_2.ShowDialog();
-        }
 
+        }
     }
 }

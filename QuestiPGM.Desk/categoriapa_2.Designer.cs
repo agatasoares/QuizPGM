@@ -69,11 +69,13 @@
             this.altrenativa_2_2.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.altrenativa_2_2.Location = new System.Drawing.Point(68, 206);
             this.altrenativa_2_2.Name = "altrenativa_2_2";
-            this.altrenativa_2_2.Size = new System.Drawing.Size(251, 21);
+            this.altrenativa_2_2.Size = new System.Drawing.Size(211, 21);
             this.altrenativa_2_2.TabIndex = 2;
             this.altrenativa_2_2.TabStop = true;
+
             this.altrenativa_2_2.Text = "Reino Unido, Império Russo e França.";
             this.altrenativa_2_2.UseVisualStyleBackColor = false;
+
             // 
             // alternativa_3_2
             // 
