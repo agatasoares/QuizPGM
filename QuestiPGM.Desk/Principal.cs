@@ -12,9 +12,13 @@ namespace QuestiPGM.Desk
 {
     public partial class Principal : Form
     {
+        private DAL _banco = new DAL();
+
         public Principal()
         {
             InitializeComponent();
+            _banco.DBName = "quiz";
+            _banco.Conectar();
         }
 
         private void Principal_Load(object sender, EventArgs e)
@@ -43,8 +47,29 @@ namespace QuestiPGM.Desk
 
         private void button1_Click(object sender, EventArgs e)
         {
-            categoriapa categoriapa = new categoriapa();
+
+            try
+            {
+                    string sql = "INSERT INTO jogo ";
+                    sql += "(id_jogador, nome_jogador) VALUES (NULL,'" + txtNome.Text + "')";
+
+                    _banco.Inserir(sql);
+                    txtNome.Text = "";
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
+            categoriapa categoriapa = new categoriapa(txtNome.Text); // Passar pro formulário como parâmetro o nome do jogador
             categoriapa.ShowDialog();
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+           
+        }
+
+
     }
 }

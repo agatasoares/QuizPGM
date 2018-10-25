@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +13,14 @@ namespace QuestiPGM.Desk
 {
     public partial class categoriapa : Form
     {
-        public categoriapa()
+        private DAL _banco = new DAL();
+        private string _nome_jogador;
+
+        public categoriapa(string nome) // Receber o nome do jogador
         {
+
             InitializeComponent();
+            _nome_jogador = nome;
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -44,7 +50,23 @@ namespace QuestiPGM.Desk
             }
             if (alternativa_3.Checked)
             {
+
                 alternativa_3.ForeColor = Color.Green;
+
+                try { 
+                    string strSQL = "UPDATE questoes SET ";
+                    strSQL += " pontuacao = pontuacao + 1 ";
+                    strSQL += " WHERE nome = @nome";
+
+                    List<MySqlParameter> valores = new List<MySqlParameter>();
+                    valores.Add(new MySqlParameter("@nome", _nome_jogador));
+
+                    _banco.Atualizar(strSQL, valores);
+                }
+                catch(Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
             }
         }
 
