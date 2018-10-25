@@ -38,5 +38,10 @@ namespace QuestiPGM.Desk
             armamento armamento = new armamento();
             armamento.ShowDialog();
         }
+
+        private void alternativa_1_2_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

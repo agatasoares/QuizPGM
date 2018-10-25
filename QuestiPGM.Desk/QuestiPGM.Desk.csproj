@@ -69,6 +69,18 @@
     <Compile Include="categoriapa_2.Designer.cs">
       <DependentUpon>categoriapa_2.cs</DependentUpon>
     </Compile>
+    <Compile Include="curiosidades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="curiosidades.Designer.cs">
+      <DependentUpon>curiosidades.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Curiosidades2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Curiosidades2.Designer.cs">
+      <DependentUpon>Curiosidades2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Principal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,6 +106,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="categoriapa_2.resx">
       <DependentUpon>categoriapa_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="curiosidades.resx">
+      <DependentUpon>curiosidades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Curiosidades2.resx">
+      <DependentUpon>Curiosidades2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Principal.resx">
       <DependentUpon>Principal.cs</DependentUpon>
@@ -159,6 +177,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\War.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1_5ETN5ReaBwav2VSnhmtHoQ.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BF1-mapaguerra-800x500.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BF1-mapaguerra-800x5001.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

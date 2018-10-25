@@ -63,6 +63,16 @@ namespace QuestiPGM.Desk.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1_5ETN5ReaBwav2VSnhmtHoQ {
+            get {
+                object obj = ResourceManager.GetObject("1_5ETN5ReaBwav2VSnhmtHoQ", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _25 {
             get {
                 object obj = ResourceManager.GetObject("25", resourceCulture);
@@ -93,6 +103,26 @@ namespace QuestiPGM.Desk.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BF1_mapaguerra_800x500 {
+            get {
+                object obj = ResourceManager.GetObject("BF1-mapaguerra-800x500", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BF1_mapaguerra_800x5001 {
+            get {
+                object obj = ResourceManager.GetObject("BF1-mapaguerra-800x5001", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap c431edb057e31d1981ad9ebc9a2c800d {
             get {
                 object obj = ResourceManager.GetObject("c431edb057e31d1981ad9ebc9a2c800d", resourceCulture);
@@ -106,6 +136,16 @@ namespace QuestiPGM.Desk.Properties {
         internal static System.Drawing.Bitmap giphy {
             get {
                 object obj = ResourceManager.GetObject("giphy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap images {
+            get {
+                object obj = ResourceManager.GetObject("images", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

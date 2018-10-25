@@ -42,5 +42,15 @@ namespace QuestiPGM.Desk
             armamento2 armamento2 = new armamento2();
             armamento2.ShowDialog();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

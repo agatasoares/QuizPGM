@@ -39,7 +39,15 @@ namespace QuestiPGM.Desk
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Application.Exit(); // encerrar
+            curiosidades curiosidades = new curiosidades();
+            curiosidades.ShowDialog();
+        }
+
+     
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
